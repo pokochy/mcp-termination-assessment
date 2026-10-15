@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+registry_raw.json
+registry_remote.json
+host_url.json
+survey_full.json
+rerun_*/
+nul

@@ -1,0 +1,112 @@
+{
+ "repetitions": 5,
+ "token_lifetime_seconds": 6,
+ "runs": {
+  "E1": [
+   {
+    "revocation_status": 200,
+    "introspection_active_after_revoke": false,
+    "access_succeeded_after_revoke": true,
+    "residual_access_seconds": 5.35,
+    "token_lifetime_seconds": 6,
+    "refresh_token_still_active": true
+   },
+   {
+    "revocation_status": 200,
+    "introspection_active_after_revoke": false,
+    "access_succeeded_after_revoke": true,
+    "residual_access_seconds": 5.81,
+    "token_lifetime_seconds": 6,
+    "refresh_token_still_active": true
+   },
+   {
+    "revocation_status": 200,
+    "introspection_active_after_revoke": false,
+    "access_succeeded_after_revoke": true,
+    "residual_access_seconds": 5.67,
+    "token_lifetime_seconds": 6,
+    "refresh_token_still_active": true
+   },
+   {
+    "revocation_status": 200,
+    "introspection_active_after_revoke": false,
+    "access_succeeded_after_revoke": true,
+    "residual_access_seconds": 5.92,
+    "token_lifetime_seconds": 6,
+    "refresh_token_still_active": true
+   },
+   {
+    "revocation_status": 200,
+    "introspection_active_after_revoke": false,
+    "access_succeeded_after_revoke": true,
+    "residual_access_seconds": 5.52,
+    "token_lifetime_seconds": 6,
+    "refresh_token_still_active": true
+   }
+  ],
+  "E2": [
+   {
+    "delete_status_when_refused": 405,
+    "session_alive_after_refusal": true,
+    "delete_status_when_allowed": 200,
+    "session_alive_after_allowed": false
+   },
+   {
+    "delete_status_when_refused": 405,
+    "session_alive_after_refusal": true,
+    "delete_status_when_allowed": 200,
+    "session_alive_after_allowed": false
+   },
+   {
+    "delete_status_when_refused": 405,
+    "session_alive_after_refusal": true,
+    "delete_status_when_allowed": 200,
+    "session_alive_after_allowed": false
+   },
+   {
+    "delete_status_when_refused": 405,
+    "session_alive_after_refusal": true,
+    "delete_status_when_allowed": 200,
+    "session_alive_after_allowed": false
+   },
+   {
+    "delete_status_when_refused": 405,
+    "session_alive_after_refusal": true,
+    "delete_status_when_allowed": 200,
+    "session_alive_after_allowed": false
+   }
+  ],
+  "E3": [
+   {
+    "upper_layer_fully_revoked": true,
+    "client_path_blocked": true,
+    "downstream_access_via_server_credential": true,
+    "downstream_access_after_provider_revocation": false
+   },
+   {
+    "upper_layer_fully_revoked": true,
+    "client_path_blocked": true,
+    "downstream_access_via_server_credential": true,
+    "downstream_access_after_provider_revocation": false
+   },
+   {
+    "upper_layer_fully_revoked": true,
+    "client_path_blocked": true,
+    "downstream_access_via_server_credential": true,
+    "downstream_access_after_provider_revocation": false
+   },
+   {
+    "upper_layer_fully_revoked": true,
+    "client_path_blocked": true,
+    "downstream_access_via_server_credential": true,
+    "downstream_access_after_provider_revocation": false
+   },
+   {
+    "upper_layer_fully_revoked": true,
+    "client_path_blocked": true,
+    "downstream_access_via_server_credential": true,
+    "downstream_access_after_provider_revocation": false
+   }
+  ]
+ }
+}
